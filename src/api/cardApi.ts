@@ -12,7 +12,6 @@ class CardApi {
         return await makeRequest(`${baseUrl}`, {
             headers: {
                 TOKEN: tokenValue,
-                "Content-Security-Policy": `connect-src ${baseUrl}`,
             },
             body,
         });
