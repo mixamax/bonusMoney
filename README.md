@@ -2,7 +2,7 @@
 
 ## deploy: https://bonus-money.netlify.app/
 
-### <span style="color: red">Для просмотра деплоя нужно разрешить браузеру загружать с http</span>
+### -Для просмотра деплоя нужно разрешить браузеру загружать с http
 
 
 ### запуск в dev режиме: npm run dev
