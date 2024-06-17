@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "SegoeUiRegular";
+    src: url("./assets/fonts/SegoeUIRegular/SegoeUIRegular.woff") format("woff");
+    src: url("./assets/fonts/SegoeUIRegular/SegoeUIRegular.ttf")
+        format("truetype");
+    src: url("./assets/fonts/SegoeUIRegular/SegoeUIRegular.eot")
+        format("embedded-opentype");
+}
+@font-face {
+    font-family: "SegoeUiBold";
+    src: url("./assets/fonts/SegoeUIBold/SegoeUIBold.woff") format("woff");
+    src: url("./assets/fonts/SegoeUIBold/SegoeUIBold.ttf") format("truetype");
+    src: url("./assets/fonts/SegoeUIBold/SegoeUIBold.eot")
+        format("embedded-opentype");
+}
+
+:root {
+    font-family: SegoeUiRegular, sans-serif;
+    /* max-width: 780px; */
+    margin: 0 auto;
+    --background: #efefef;
+    --header-text-color: #2688eb;
+    --primery-text-color: #1a1a1a;
+    color: var(--primery-text-color);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    /* min-height: 100vh; */
+    height: 100dvh;
+    transition: height 0.3s ease-in-out;
+    background-color: var(--background);
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+}

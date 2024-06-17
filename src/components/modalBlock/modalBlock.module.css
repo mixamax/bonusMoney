@@ -1,0 +1,32 @@
+.modalblock-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.modalblock-text {
+    font-size: 6vw;
+    width: 80vw;
+    border-radius: 4vw;
+    padding: 4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+}
+
+.modalblock-button {
+    padding: 1vw;
+    border-radius: 50%;
+    width: 15vw;
+    height: 15vw;
+    border: none;
+    background-color: white;
+    font-size: 4vw;
+    margin-top: 35vw;
+}
+.modalblock-text img {
+    margin-bottom: 2vw;
+}

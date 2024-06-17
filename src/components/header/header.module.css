@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--header-text-color);
+    font-size: 6vw;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    height: 14vw;
+    width: 100%;
+}

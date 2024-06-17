@@ -1,0 +1,16 @@
+.card-header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.card-header {
+    font-size: 5vw;
+    /* letter-spacing: 0.6px; */
+}
+.card-header-sceleton {
+    width: 12vw;
+    height: 12vw;
+    border-radius: 50%;
+    background-color: var(--background);
+}
