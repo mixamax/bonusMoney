@@ -1,9 +1,9 @@
 ## React + TypeScript + Vite + MobX
 
 ## deploy: https://bonus-money.netlify.app/
-
-### -Для просмотра деплоя нужно разрешить браузеру загружать с http
-
+```diff
+### - Для просмотра деплоя нужно разрешить браузеру загружать с http (and bold)
+```
 
 ### запуск в dev режиме: npm run dev
 
